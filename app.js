@@ -82,7 +82,9 @@ app.listen(port,(req,res)=>
     console.log("Server connected")  
 })
 
-
+app.get("/",(req,res)=>{
+    res.send("hi i am root")
+})
 
 
 const validatelisting = (req, res, next) => {
