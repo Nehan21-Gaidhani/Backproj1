@@ -326,3 +326,8 @@ app.all("*",(req,res,next)=>
         next(new Myerror(400,"Page not found"))
     })
     
+    app.use((req, res, next) => {
+        console.log(`Request URL: ${req.url}`);
+        next();
+    });
+    
