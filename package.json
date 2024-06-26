@@ -1,6 +1,5 @@
-{ "engines":{
-   "node":"20.6.1"
-},
+{ 
+  
   "name": "place-project",
   "version": "1.0.0",
   "description": "",
